@@ -288,3 +288,34 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+
+  EUPPBench_surface_geopotential:
+    description: "IFS Model Surface Geopotential. This is a static field. The model orography can be obtained by dividing the surface geopotential by g=9.80665 ms^−2."
+    driver: zarr
+    args:
+      urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/gridded_data/gridded_000z.zarr/"
+      consolidated: true
+      storage_options:
+        anon: true
+        endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+
+  EUPPBench_land_use:
+    description: "Land usage. This is a static field. Extracted from the CORINE 2018 dataset. Values and associated land type differ from the ECMWF one. 
+    Please look at the “legend” entry in the metadata for more details."
+    driver: zarr
+    args:
+      urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/gridded_data/gridded_land_usage.zarr/"
+      consolidated: true
+      storage_options:
+        anon: true
+        endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+
+  EUPPBench_model_terrain_height:
+    description: "True altitude at the grid points. This is a static field. Extracted from the EU-DEMv1.1 data elevation model dataset."
+    driver: zarr
+    args:
+      urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/gridded_data/gridded_model_terrain_height.zarr/"
+      consolidated: true
+      storage_options:
+        anon: true
+        endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
