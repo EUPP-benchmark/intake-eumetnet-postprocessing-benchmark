@@ -9,6 +9,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_forecasts_efi_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -19,6 +20,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_ensemble_forecasts_surface_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -29,6 +31,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_highres_forecasts_surface_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -39,6 +42,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_forecasts_observations_surface_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -49,6 +53,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_ensemble_forecasts_surface_postprocessed_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -59,6 +64,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_highres_forecasts_surface_postprocessed_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -69,6 +75,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_forecasts_observations_surface_postprocessed_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -79,6 +86,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_ensemble_forecasts_pressure_500_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -89,6 +97,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_highres_forecasts_pressure_500_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -99,6 +108,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_ensemble_forecasts_pressure_700_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -109,6 +119,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_highres_forecasts_pressure_700_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -119,6 +130,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_ensemble_forecasts_pressure_850_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -129,6 +141,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_highres_forecasts_pressure_850_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -139,6 +152,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_ensemble_reforecasts_surface_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -149,6 +163,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_reforecasts_observations_surface_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -159,6 +174,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_ensemble_reforecasts_surface_postprocessed_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -169,6 +185,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_reforecasts_observations_surface_postprocessed_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -179,6 +196,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_ensemble_reforecasts_pressure_500_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -189,6 +207,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_ensemble_reforecasts_pressure_700_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
@@ -199,6 +218,7 @@ sources:
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/stations_data/stations_ensemble_reforecasts_pressure_850_france.zarr/"
       consolidated: true
+      decode_timedelta: true
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
