@@ -173,16 +173,6 @@ sources:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
 
-  EUPPBench_highres_reforecasts_surface:
-    description: "IFS High-Resolution Surface variable reforecasts (or hindcasts)"
-    driver: zarr
-    args:
-      urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/gridded_data/gridded_highres_reforecasts_surface.zarr/"
-      consolidated: true
-      storage_options:
-        anon: true
-        endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
-
   EUPPBench_reforecasts_observations_surface:
     description: "ERA5 Surface variable observations matching the reforecasts (or hindcasts)"
     driver: zarr
@@ -198,16 +188,6 @@ sources:
     driver: zarr
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/gridded_data/gridded_ensemble_reforecasts_surface_postprocessed.zarr/"
-      consolidated: true
-      storage_options:
-        anon: true
-        endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
-
-  EUPPBench_highres_reforecasts_surface_processed:
-    description: "IFS High-Resolution Processed Surface variable reforecasts (or hindcasts)"
-    driver: zarr
-    args:
-      urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/gridded_data/gridded_highres_reforecasts_surface_postprocessed.zarr/"
       consolidated: true
       storage_options:
         anon: true
@@ -233,16 +213,6 @@ sources:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
 
-  EUPPBench_highres_reforecasts_pressure_500:
-    description: "IFS High-Resolution 500-hPa Pressure Level reforecasts (or hindcasts)"
-    driver: zarr
-    args:
-      urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/gridded_data/gridded_highres_reforecasts_pressure_500.zarr/"
-      consolidated: true
-      storage_options:
-        anon: true
-        endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
-
   EUPPBench_reforecasts_observations_pressure_500:
     description: "ERA5 500 hPa Pressure Level observations matching the reforecasts (or hindcasts)"
     driver: zarr
@@ -263,16 +233,6 @@ sources:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
 
-  EUPPBench_highres_reforecasts_pressure_700:
-    description: "IFS High-Resolution 700-hPa Pressure Level reforecasts (or hindcasts)"
-    driver: zarr
-    args:
-      urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/gridded_data/gridded_highres_reforecasts_pressure_700.zarr/"
-      consolidated: true
-      storage_options:
-        anon: true
-        endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
-
   EUPPBench_reforecasts_observations_pressure_700:
     description: "ERA5 700 hPa Pressure Level observations matching the reforecasts (or hindcasts)"
     driver: zarr
@@ -288,16 +248,6 @@ sources:
     driver: zarr
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/gridded_data/gridded_ensemble_reforecasts_pressure_850.zarr/"
-      consolidated: true
-      storage_options:
-        anon: true
-        endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
-
-  EUPPBench_highres_reforecasts_pressure_850:
-    description: "IFS High-Resolution 700-hPa Pressure Level reforecasts (or hindcasts)"
-    driver: zarr
-    args:
-      urlpath: "s3://eumetnet-postprocessing-benchmark-1st-phase-training-dataset/data/gridded_data/gridded_highres_reforecasts_pressure_700.zarr/"
       consolidated: true
       storage_options:
         anon: true
