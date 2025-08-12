@@ -1,7 +1,6 @@
 name: euppbench-datasets
 channels:
   - conda-forge
-  - numba
 dependencies:
   - python>=3.10
   - sphinx
