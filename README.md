@@ -5,10 +5,10 @@ A Python module using [Intake](https://github.com/intake/intake) catalogues to r
 Ease the download of the dataset time-aligned forecasts, reforecasts (hindcasts) and observations.
 
 > * **Climetlab plugin version**: 0.2.5
-> * **Intake catalogues version**: 0.5
-> * **EUPreciPBench dataset version**: 0.5
-> * **EUPPBench dataset version**: 1.0
+> * **Intake catalogues version**: 0.2.5
 > * **Base dataset version**: 1.0
+> * **EUPPBench dataset version**: 1.0
+> * **EUPreciPBench dataset version**: 0.5
 > * **Dataset status**: [Datasets status](https://eupp-benchmark.github.io/EUPPBench-doc/files/datasets_status.html#datasets-status)
 
 A [climetlab plugin](https://github.com/EUPP-benchmark/climetlab-eumetnet-postprocessing-benchmark) is also available, as an alternative way to get the datasets.
@@ -17,9 +17,9 @@ A [climetlab plugin](https://github.com/EUPP-benchmark/climetlab-eumetnet-postpr
 
 There are currently three sub-datasets available:
 
+* [The base dataset over Europe's domain](https://eupp-benchmark.github.io/EUPPBench-doc/files/base_datasets.html) (available uniquely through the [climetlab plugin](https://github.com/EUPP-benchmark/climetlab-eumetnet-postprocessing-benchmark))
 * [The EUPPBench dataset](https://eupp-benchmark.github.io/EUPPBench-doc/files/EUPPBench_datasets.html)
 * [The EUPreciPBench dataset]() (not accessible yet)
-* [The base dataset over Europe's domain](https://eupp-benchmark.github.io/EUPPBench-doc/files/base_datasets.html) (available uniquely through the [climetlab plugin](https://github.com/EUPP-benchmark/climetlab-eumetnet-postprocessing-benchmark))
 
 They are documented [here](https://eupp-benchmark.github.io/EUPPBench-doc/index.html).
 
@@ -30,7 +30,7 @@ Access through the catalogue can be done with the Python command line interface 
 ```python
 # Uncomment the line below if the catalogue is not yet installed
 #!pip install euppbench-datasets
-import euppbench-datasets
+import euppbench_datasets
 cat = euppbench_datasets.open_catalog()
 ds = cat.euppbench.training_data.gridded.EUPPBench_highres_forecasts_surface.to_dask() 
 ```
