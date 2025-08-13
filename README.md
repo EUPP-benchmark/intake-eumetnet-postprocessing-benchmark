@@ -1,6 +1,6 @@
 # The Eumetnet postprocessing benchmark dataset Intake catalogue
 
-A Python module using [Intake](https://github.com/intake/intake) catalogues to to retrieve the Eumetnet postprocessing benchmark datasets.
+A Python module using [Intake](https://github.com/intake/intake) catalogues to retrieve the Eumetnet postprocessing benchmark datasets.
 
 Ease the download of the dataset time-aligned forecasts, reforecasts (hindcasts) and observations.
 
@@ -49,3 +49,7 @@ See the [LICENSE](https://github.com/EUPP-benchmark/intake-eumetnet-postprocessi
 ## Authors
 
 See the [CONTRIBUTORS.md](https://github.com/EUPP-benchmark/intake-eumetnet-postprocessing-benchmark/blob/main/CONTRIBUTORS.md) file.
+
+## Acknowledgments
+
+This package was inspired by the [mlcast-datasets](https://github.com/mlcast-community/mlcast-datasets) written by Leif Denby.
