@@ -5,7 +5,7 @@ A Python module using [Intake](https://github.com/intake/intake) catalogues to r
 Ease the download of the dataset time-aligned forecasts, reforecasts (hindcasts) and observations.
 
 > * **Climetlab plugin version**: 0.2.5
-> * **Intake catalogues version**: 0.2.5
+> * **Intake catalogues version**: 0.2.0
 > * **Base dataset version**: 1.0
 > * **EUPPBench dataset version**: 1.0
 > * **EUPreciPBench dataset version**: 0.5
