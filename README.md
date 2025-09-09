@@ -1,4 +1,4 @@
-# The Eumetnet postprocessing benchmark dataset Intake catalogue
+# The EUMETNET postprocessing benchmark dataset Intake catalogue
 
 A Python module using [Intake](https://github.com/intake/intake) catalogues to retrieve the Eumetnet postprocessing benchmark datasets.
 
@@ -40,7 +40,7 @@ in the [xarray](http://xarray.pydata.org/en/stable/index.html) format.
 
 ## Support and contributing
 
-Please open a [issue on github](https://github.com/EUPP-benchmark/intake-eumetnet-postprocessing-benchmark/issues).
+Please open a [issue on GitHub](https://github.com/EUPP-benchmark/intake-eumetnet-postprocessing-benchmark/issues).
 
 ## LICENSE
 
