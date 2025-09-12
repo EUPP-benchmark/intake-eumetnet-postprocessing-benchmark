@@ -1,5 +1,9 @@
 # The EUMETNET postprocessing benchmark dataset Intake catalogue
 
+[![PyPI version](https://badge.fury.io/py/euppbench-datasets.svg)](https://badge.fury.io/py/euppbench-datasets)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/euppbench-datasets.svg)](https://pypi.org/project/euppbench-datasets/)
+[<img src="https://img.shields.io/badge/docs-online-green.svg">](https://eupp-benchmark.github.io/EUPPBench-doc)
+
 A Python module using [Intake](https://github.com/intake/intake) catalogues to retrieve the Eumetnet postprocessing benchmark datasets.
 
 Ease the download of the dataset time-aligned forecasts, reforecasts (hindcasts) and observations.
