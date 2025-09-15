@@ -1,3 +1,4 @@
+
 --------------------
 License for the data
 --------------------
@@ -6,9 +7,8 @@ License for the data
 # EUPPBench #
 -------------
 
------------------
 ## Forecast data
------------------
+----------------
 
 Gridded forecast reforecast data source
 
@@ -17,12 +17,11 @@ Source https://www.ecmwf.int
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 Copyright (c) 2021 European Centre for Medium-Range Weather Forecasts (ECMWF).
 
---------------------
 ## Observation data
---------------------
+-------------------
 
-Gridded data
-------------
+### Gridded data
+----------------
 
 Copernicus ERA5 gridded reanalysis data source
 
@@ -36,13 +35,40 @@ Hersbach et al. (2018): ERA5 hourly data on single levels from 1979 to present.
 
 Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (Accessed on < 21-04-2021 >), doi:10.24381/cds.adbb2d47.
 
-Station observations
---------------------
+### Station observations
+------------------------
 
 Source: Royal Meteorological Institute of Belgium (RMIB), https://www.meteo.be; Météo-France, https://meteofrance.fr; ZAMG, Zentralanstalt für Meteorologie und Geodynamik, https://www.zamg.ac.at/; Royal Netherlands Meteorological Institute (KNMI), https://www.knmi.nl; DWD, Deutscher Wetterdienst, https://www.dwd.de/
 
+-----------------
+# EUPreciPBench #
+-----------------
+
+## Forecast data
+----------------
+
+Gridded forecast data source
+
+Producer: Deutsche Wetterdienst (DWD), Offenbach (https://www.dwd.de)
+
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+## Observation data
+-------------------
+
+### Gridded data
+----------------
+
+EURADCLIM 1 hour accumulated radar precipitation data
+
+Source: KNMI
+
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Webpage: https://dataplatform.knmi.nl/dataset/rad-opera-hourly-rainfall-accumulation-euradclim-2-0
+
 ----------------------
-## Static fields data
+# Static fields data #
 ----------------------
 
 Land usage and model altitude:
@@ -58,31 +84,3 @@ Source https://www.ecmwf.int
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 Copyright (c) 2021 European Centre for Medium-Range Weather Forecasts (ECMWF).
 
------------------
-# EUPreciPBench #
------------------
-
------------------
-## Forecast data
------------------
-
-Gridded forecast data source
-
-Producer: Deutsche Wetterdienst (DWD), Offenbach (https://www.dwd.de)
-
-Creative Commons Attribution 4.0 International (CC BY 4.0)
-
---------------------
-## Observation data
---------------------
-
-Gridded data
-------------
-
-EURADCLIM 1 hour accumulated radar precipitation data
-
-Source: KNMI
-
-Creative Commons Attribution 4.0 International (CC BY 4.0)
-
-Webpage: https://dataplatform.knmi.nl/dataset/rad-opera-hourly-rainfall-accumulation-euradclim-2-0
