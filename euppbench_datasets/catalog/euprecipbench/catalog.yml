@@ -59,7 +59,7 @@ sources:
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
 
   EUPreciPBench_model_terrain_height:
-    description: "Terrain height at the model points on the EUPreciPBench domain"
+    description: "Terrain height on the EUPreciPBench domain"
     driver: zarr
     args:
       urlpath: "s3://eumetnet-postprocessing-benchmark-precip-dataset/data/gridded_data/EUPreciPBench_model_terrain_height.zarr/"
@@ -68,11 +68,21 @@ sources:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
 
-  EUPreciPBench_surface_geopotential:
-    description: "Terrain height at the model points on the EUPreciPBench domain"
+  EUPreciPBench_mean_orographic_height_DE:
+    description: "COSMO DE domain mean orographic height on the EUPreciPBench domain"
     driver: zarr
     args:
-      urlpath: "s3://eumetnet-postprocessing-benchmark-precip-dataset/data/gridded_data/EUPreciPBench_surface_geopotential.zarr/"
+      urlpath: "s3://eumetnet-postprocessing-benchmark-precip-dataset/data/gridded_data/EUPreciPBench_COSMO_DE_mean_orographic_height.zarr/"
+      consolidated: true
+      storage_options:
+        anon: true
+        endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+
+  EUPreciPBench_mean_orographic_height_D2:
+    description: "COSMO D2 domain mean orographic height on the EUPreciPBench domain"
+    driver: zarr
+    args:
+      urlpath: "s3://eumetnet-postprocessing-benchmark-precip-dataset/data/gridded_data/EUPreciPBench_COSMO_D2_mean_orographic_height.zarr/"
       consolidated: true
       storage_options:
         anon: true

@@ -8,14 +8,24 @@ A Python module using [Intake](https://github.com/intake/intake) catalogues to r
 
 Ease the download of the dataset time-aligned forecasts, reforecasts (hindcasts) and observations.
 
-> * **Climetlab plugin version**: 0.3.2
-> * **Intake catalogues version**: 0.2.3
+> * **Climetlab plugin version**: 0.3.3
+> * **Intake catalogues version**: 0.2.4
 > * **Base dataset version**: 1.0
 > * **EUPPBench dataset version**: 1.0
 > * **EUPreciPBench dataset version**: 0.5
 > * **Dataset status**: [Datasets status](https://eupp-benchmark.github.io/EUPPBench-doc/files/datasets_status.html#datasets-status)
 
 A [climetlab plugin](https://github.com/EUPP-benchmark/climetlab-eumetnet-postprocessing-benchmark) is also available, as an alternative way to get the datasets.
+
+## Installation
+
+The catalogue can be installed using [pip](https://pypi.org/).
+Type in a terminal
+
+    pip install euppbench-datasets 
+
+and you are set!
+
 
 ## Documentation of the datasets
 
