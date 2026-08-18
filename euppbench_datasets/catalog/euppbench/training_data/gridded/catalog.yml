@@ -13,6 +13,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_ensemble_forecasts_surface:
     description: "IFS Ensemble Surface variable forecasts"
@@ -24,6 +25,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_highres_forecasts_surface:
     description: "IFS High-Resolution Surface variable forecasts"
@@ -35,6 +37,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_forecasts_observations_surface:
     description: "ERA5 Surface variable observations matching the forecasts"
@@ -46,6 +49,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_ensemble_forecasts_surface_processed:
     description: "IFS Ensemble Processed Surface variable forecasts"
@@ -57,6 +61,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_highres_forecasts_surface_processed:
     description: "IFS High-Resolution Processed Surface variable forecasts"
@@ -68,6 +73,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_forecasts_observations_surface_processed:
     description: "ERA5 Processed Surface variable observations matching the forecasts"
@@ -79,6 +85,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_ensemble_forecasts_pressure_500:
     description: "IFS Ensemble 500hPa Pressure Level forecasts"
@@ -90,6 +97,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_highres_forecasts_pressure_500:
     description: "IFS High-Resolution 500-hPa Pressure Level forecasts"
@@ -101,6 +109,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_forecasts_observations_pressure_500:
     description: "ERA5 500 hPa Pressure Level observations matching the forecasts"
@@ -112,6 +121,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_ensemble_forecasts_pressure_700:
     description: "IFS Ensemble 700hPa Pressure Level forecasts"
@@ -123,6 +133,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_highres_forecasts_pressure_700:
     description: "IFS High-Resolution 700-hPa Pressure Level forecasts"
@@ -134,6 +145,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_forecasts_observations_pressure_700:
     description: "ERA5 700 hPa Pressure Level observations matching the forecasts"
@@ -145,6 +157,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_ensemble_forecasts_pressure_850:
     description: "IFS Ensemble 850hPa Pressure Level forecasts"
@@ -156,6 +169,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_highres_forecasts_pressure_850:
     description: "IFS High-Resolution 700-hPa Pressure Level forecasts"
@@ -167,6 +181,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_forecasts_observations_pressure_850:
     description: "ERA5 700 hPa Pressure Level observations matching the forecasts"
@@ -178,6 +193,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_ensemble_reforecasts_surface:
     description: "IFS Ensemble Surface variable reforecasts (or hindcasts)"
@@ -189,6 +205,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_reforecasts_observations_surface:
     description: "ERA5 Surface variable observations matching the reforecasts (or hindcasts)"
@@ -200,6 +217,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_ensemble_reforecasts_surface_processed:
     description: "IFS Ensemble Processed Surface variable reforecasts (or hindcasts)"
@@ -211,6 +229,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_reforecasts_observations_surface_processed:
     description: "ERA5 Processed Surface variable observations matching the reforecasts (or hindcasts)"
@@ -222,6 +241,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_ensemble_reforecasts_pressure_500:
     description: "IFS Ensemble 500hPa Pressure Level reforecasts (or hindcasts)"
@@ -233,6 +253,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_reforecasts_observations_pressure_500:
     description: "ERA5 500 hPa Pressure Level observations matching the reforecasts (or hindcasts)"
@@ -244,6 +265,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_ensemble_reforecasts_pressure_700:
     description: "IFS Ensemble 700hPa Pressure Level reforecasts (or hindcasts)"
@@ -255,6 +277,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_reforecasts_observations_pressure_700:
     description: "ERA5 700 hPa Pressure Level observations matching the reforecasts (or hindcasts)"
@@ -266,6 +289,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_ensemble_reforecasts_pressure_850:
     description: "IFS Ensemble 850hPa Pressure Level reforecasts (or hindcasts)"
@@ -277,6 +301,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_reforecasts_observations_pressure_850:
     description: "ERA5 700 hPa Pressure Level observations matching the reforecasts (or hindcasts)"
@@ -288,6 +313,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_surface_geopotential:
     description: "IFS Model Surface Geopotential. This is a static field. The model orography can be obtained by dividing the surface geopotential by g=9.80665 ms^−2."
@@ -298,6 +324,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_land_use:
     description: "Land usage. This is a static field. Extracted from the CORINE 2018 dataset. Values and associated land type differ from the ECMWF one. 
@@ -309,6 +336,7 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
 
   EUPPBench_model_terrain_height:
     description: "True altitude at the grid points. This is a static field. Extracted from the EU-DEMv1.1 data elevation model dataset."
@@ -319,3 +347,4 @@ sources:
       storage_options:
         anon: true
         endpoint_url: "https://object-store.os-api.cci1.ecmwf.int"
+      zarr_format: 2
