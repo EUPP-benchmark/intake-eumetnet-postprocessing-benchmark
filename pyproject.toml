@@ -6,7 +6,7 @@ requires = ["setuptools", "setuptools_scm", "wheel"]
 [project]
 requires-python = ">=3.10"
 name = "euppbench-datasets"
-version = "0.2.5"
+version = "0.2.6"
 description = "Intake catalogue for the EUPPBench postprocessing datasets"
 readme = "README.md"
 authors = [
@@ -19,6 +19,8 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
 	"Programming Language :: Python :: 3.12",
+	"Programming Language :: Python :: 3.13",
+	"Programming Language :: Python :: 3.14",
     "Operating System :: OS Independent",
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Science/Research",
